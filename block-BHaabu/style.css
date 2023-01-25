@@ -22,9 +22,10 @@ h1{
 }
 
 .wa{
-    background:url("media/landscape-3913574_960_720.jpg") repeat;
+    background:url("media/landscape-3913574_960_720.jpg") no-repeat;
     background-color:aquamarine;
-    background-size:auto;
+    background-size:cover;
+    background-attachment:fixed;
 }
 
 .div12{
@@ -53,7 +54,7 @@ h1{
     height:400px;
     border-radius:10px;
     background:linear-gradient(rgba(244,34,34,0.1),rgba(244,34,34,0.5)),url(media/flowers-6484552_1280.webp);
-
+    
 }
 
 .div2{
