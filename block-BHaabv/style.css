@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Custom Styles*/
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:0;
+    font-size:20px;
+}
+
+.div1{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+.div3{
+    display:flex;
+    align-items:center;
+}
+
+.io{
+    margin-left:20px;
+}
+
+.p{
+    margin-top:5px;
+    color:rgb(195, 219, 234);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+}
+
+.body{
+    background-color:rgb(29, 44, 67);
+    padding:30px 30px;
+}
+
+.p1{
+    color:rgb(195, 219, 234);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+
+.div44{
+    display:flex;
+    color:rgb(195, 219, 234);
+}
+
+.hi1{
+    font-size:50px;
+    margin-bottom:5px;
+    color:white;
+}
+
+.div55{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.div66{
+    display:flex;
+}
+
+.div4{
+    width:200px;
+    height:200px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    padding:20px 30px;
+    border-top:3px solid rgb(88, 102, 227);
+    background-color:rgb(44, 54, 74);
+    border-radius:5px;
+    margin-top:40px;
+    margin-right:25px;
+}
+
+.s1{
+    color:rgb(118, 126, 80);
+    margin-left:5px;
+}
+
+.s2{
+    margin-left:10px;
+}
+.div44 i{
+    color:rgb(45, 136, 233);
+}
+
+.div5{
+    width:200px;
+    height:200px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    padding:20px 30px;
+    border-top:3px solid rgb(88, 102, 227);
+    background-color:rgb(44, 54, 74);
+    border-radius:5px;
+    margin-top:40px;
+    margin-right:25px;
+
+}
+
+.div33{
+    display:flex;
+}
+
+.tweet{ 
+    color:rgb(45, 136, 233);
+}
+
+.div6{
+    width:200px;
+    height:200px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    padding:20px 30px;
+    border-top:3px solid rgb(108, 242, 101);
+    background-color:rgb(44, 54, 74);
+    border-radius:5px;
+    margin-top:40px;
+    margin-right:25px;
+}
+
+.div7{
+    width:200px;
+    height:200px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    padding:20px 30px;
+    border-top:3px solid rgb(108, 242, 101);
+    background-color:rgb(44, 54, 74);
+    border-radius:5px;
+    margin-top:40px;
+}
+
+.s2{
+    color:rgb(195, 219, 234);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div8{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:20px 30px;
+    margin-right:25px;
+    height:70px;
+    width:197px;
+    background-color:rgb(44, 54, 74);
+    border-radius:5px;
+    margin-bottom:25px;
+}
+.div88{
+    display:flex;
+    justify-content:space-between;
+}
+
+.div9{
+    display:flex;
+    justify-content:space-between;
+}
+
+.h2{
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    margin-top:30px;
+    margin-bottom:20px;
+    font-weight:bolder;
+}
+
+.s3{
+    color:rgb(195, 219, 234);
+}
+
+.ii{
+    color:rgb(45, 136, 233);
+}
+.hi2{
+    font-size:25px;
+    font-weight:bolder;
+    color:white;
+}
+.s4{
+    color:rgb(118, 126, 80);
+    margin-left:5px;
+}
+
+.div77{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.div99{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:20px 30px;
+    margin-right:0px;
+    height:70px;
+    width:190px;
+    background-color:rgb(44, 54, 74);
+    border-radius:5px;
+}
+
+.div10{
+    display:flex;
+}
